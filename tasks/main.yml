@@ -6,6 +6,7 @@
     dest: "./vector-{{ vector_version }}.deb"
 
 - name: Install vector packages
+  become: true
   ansible.builtin.apt:
     state: present
     deb: vector-{{ vector_version }}.deb
