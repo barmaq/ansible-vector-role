@@ -1,10 +1,10 @@
 Vector
 =========
 
-This roler can install Vector on debian os family
+Эта роль установит Vector на debian\ubuntu
 
 
-Role Variables
+Переменные
 --------------
 
 | Переменная  | Назначение  |
@@ -12,10 +12,9 @@ Role Variables
 | `vector_version` | версия `Vector` |
 
 
-Example Playbook
+Пример Playbook
 ----------------
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
 
     - hosts: servers
       roles:
@@ -26,7 +25,7 @@ License
 
 MIT
 
-Author Information
+Информация о Авторе
 ------------------
 
 Victor SHumskiy
