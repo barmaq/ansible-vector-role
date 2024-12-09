@@ -7,8 +7,9 @@ This roler can install Vector on debian os family
 Role Variables
 --------------
 
-| vars| description |
-| vector_version | Version of Vector to install |
+| Переменная  | Назначение  |
+|:---|:---|
+| `vector_version` | версия `Vector` |
 
 
 Example Playbook
